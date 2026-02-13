@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Tia's Healthy Bakes – Artisan bakery serving healthy cookies, cupcakes, bread, donuts and more.">
+  <title>Tia's Healthy Bakes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- ========================================
+       HEADER / NAVIGATION
+       ======================================== -->
+  <header class="header">
+    <div class="container header__inner">
+
+      <!-- Logo -->
+      <a href="#" class="header__logo">Tia's Healthy Bakes</a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header__nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#detail">About Us</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header__actions">
+        <button class="header__icon-btn" aria-label="Search">🔍</button>
+        <button class="header__icon-btn" aria-label="Cart">🛒</button>
+
+        <!-- Mobile hamburger -->
+        <button class="header__hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================
+       HERO SECTION
+       ======================================== -->
+  <section id="home" class="hero">
+    <div class="container hero__inner">
+
+      <!-- Text -->
+      <div class="hero__text">
+        <h1 class="hero__title">
+          Bring you Happiness<br>through a piece of cake
+        </h1>
+        <p class="hero__subtitle">
+          Reach out to us to place an order or ask about our
+          many menu options. We'd love to help you create
+          a memorable dessert experience.
+        </p>
+        <a href="#products" class="hero__btn">Menu</a>
+      </div>
+
+      <!-- Hero Image Placeholder -->
+      <div class="hero__image">
+        <!-- Place your hero image here -->
+        <span>Hero Image</span>
+      </div>
+    </div>
+
+    <!-- Image Carousel -->
+    <div class="container" style="padding-bottom: 30px;">
+      <div class="carousel">
+        <div class="carousel__item">Image 1</div>
+        <div class="carousel__item">Image 2</div>
+        <div class="carousel__item">Image 3</div>
+        <div class="carousel__item">Image 4</div>
+        <div class="carousel__item">Image 5</div>
+        <div class="carousel__item">Image 6</div>
+        <div class="carousel__item">Image 7</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       CATEGORIES SECTION
+       ======================================== -->
+  <section id="categories" class="categories section">
+    <div class="container">
+      <h2 class="section__title">Categories</h2>
+
+      <div class="categories__grid">
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <!-- Place your image here -->
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Most popular</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Favorites</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Bread</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Cookie</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Croissant</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Cupcake</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Custard pie</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Donut</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Coffee</div>
+        </a>
+
+        <a href="#products" class="category-card">
+          <div class="category-card__image">
+            <span>Image</span>
+          </div>
+          <div class="category-card__label">Cake</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       PRODUCTS SECTION
+       ======================================== -->
+  <section id="products" class="products section">
+    <div class="container">
+
+      <!-- Search & Filter -->
+      <div class="search-bar">
+        <div class="search-pill">
+          <span class="search-pill__icon">🔍</span>
+          <span class="search-pill__text">Search</span>
+        </div>
+        <div class="filter-pill">
+          <span class="filter-pill__icon">⚙️</span>
+          <span class="filter-pill__text">Filter</span>
+        </div>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="category-tabs">
+        <div class="category-tab category-tab--active">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Most popular</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Favorites</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Bread</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Cookie</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Croissant</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Cupcake</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Custard pie</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Donut</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Coffee</span>
+        </div>
+        <div class="category-tab">
+          <div class="category-tab__icon"></div>
+          <span class="category-tab__label">Cake</span>
+        </div>
+      </div>
+
+      <h2 class="section__title">Most Popular</h2>
+
+      <!-- Product Cards Grid -->
+      <div class="products__grid">
+
+        <!-- Product 1: Macaron box -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Macaron box (12 pieces)</span>
+              <span class="product-card__price">$5</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 2: Chocolate cupcakes -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Chocolate cupcakes with cream and fruits</span>
+              <span class="product-card__price">$1</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 3: Crispy beget -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Crispy beget with fluffy stuffing</span>
+              <span class="product-card__price">$3</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 4: Cookies with chocolate chips -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Cookies with chocolate chips</span>
+              <span class="product-card__price">3 / $0.50</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 5: Macaron box double stuffed -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Macaron box double stuffed (8 pieces)</span>
+              <span class="product-card__price">$4.50</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 6: Cookies with chocolate chips (single) -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Cookies with chocolate chips</span>
+              <span class="product-card__price">$0.70</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star star-rating__star--empty">★</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 7: Cinnamon cookies box -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <span class="product-card__image-placeholder">Product Image</span>
+            <button class="product-card__fav" aria-label="Add to favorites">♡</button>
+            <button class="product-card__add-btn">Add to Cart 🛒</button>
+          </div>
+          <div class="product-card__info">
+            <div class="product-card__row">
+              <span class="product-card__name">Cinamon cookies box (16 pieces)</span>
+              <span class="product-card__price">$9.50</span>
+            </div>
+            <div class="star-rating">
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star">★</span>
+              <span class="star-rating__star star-rating__star--half">★</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       PRODUCT DETAIL — Cookies with chocolate chips
+       ======================================== -->
+  <section id="detail" class="detail section">
+    <div class="container">
+      <h2 class="section__title">Product Detail</h2>
+
+      <div class="detail__inner">
+
+        <!-- Hero Image -->
+        <div class="detail__hero">
+          <span class="detail__hero-placeholder">Product Image</span>
+          <button class="detail__back-btn" aria-label="Go back">←</button>
+          <button class="detail__fav-btn" aria-label="Add to favorites">♡</button>
+        </div>
+
+        <!-- Detail Content -->
+        <div class="detail__content-wrap">
+          <div class="detail__body">
+
+            <!-- Name & Price -->
+            <div>
+              <div class="detail__header">
+                <h3 class="detail__name">Cookies with chocolate chips</h3>
+                <span class="detail__price">$0.70</span>
+              </div>
+              <div class="star-rating" style="margin-top: 6px">
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star star-rating__star--empty">★</span>
+              </div>
+            </div>
+
+            <!-- Description -->
+            <p class="detail__description">
+              Indulge in the delightful goodness of our freshly baked cookies with rich, melt-in-your-mouth chocolate
+              chips. Each pack contains three perfectly-sized cookies.
+            </p>
+
+            <!-- Allergens -->
+            <div class="detail__allergens">
+              <div>
+                <span class="detail__allergens-label">Allergens: </span>
+                <span class="detail__allergens-value">Cashews, eggs, milk.</span>
+              </div>
+              <div class="dietary-badges">
+                <div class="dietary-badge dietary-badge--active">
+                  <span class="dietary-badge__icon">🌿</span>
+                  <span>Vegetarian</span>
+                </div>
+                <div class="dietary-badge dietary-badge--inactive">
+                  <span class="dietary-badge__icon">🌱</span>
+                  <span>Vegan</span>
+                </div>
+                <div class="dietary-badge dietary-badge--inactive">
+                  <span class="dietary-badge__icon">🌾</span>
+                  <span>Gluten Free</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Savor Options -->
+            <div>
+              <h4 class="detail__options-title">Savor</h4>
+              <div class="savor-options">
+                <button class="savor-pill">Vanilla</button>
+                <button class="savor-pill">Chocolate</button>
+                <button class="savor-pill">Coconut</button>
+                <button class="savor-pill">Coffee</button>
+                <button class="savor-pill">Strawberry</button>
+              </div>
+            </div>
+
+            <!-- Add Extras -->
+            <div>
+              <h4 class="detail__options-title">Add Extras</h4>
+              <div class="extras-list">
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Espresso Powder</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Dried Fruit</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Peanut Butter Swirl</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Sea Salt</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Coconut Flakes</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Additional Note -->
+            <div>
+              <h4 class="detail__options-title">Anything else?</h4>
+              <div class="note-field">
+                <input class="note-field__input" type="text" placeholder="Introduce an additional note">
+                <label class="note-field__label">Anything else?</label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Add to Cart Bar -->
+          <div class="detail__cart-bar">
+            <button class="add-to-cart-btn" type="button">
+              <span>Add</span>
+              <div class="add-to-cart-btn__qty">
+                <button type="button">▲</button>
+                <span class="add-to-cart-btn__qty-value">1</span>
+                <button type="button">▼</button>
+              </div>
+              <span>to Cart</span>
+              <span class="add-to-cart-btn__icon">🛒</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       PRODUCT DETAIL — Spongy donut with chips
+       ======================================== -->
+  <section class="detail section">
+    <div class="container">
+      <div class="detail__inner">
+
+        <!-- Hero Image -->
+        <div class="detail__hero">
+          <span class="detail__hero-placeholder">Product Image</span>
+          <button class="detail__back-btn" aria-label="Go back">←</button>
+          <button class="detail__fav-btn" aria-label="Add to favorites">♡</button>
+        </div>
+
+        <!-- Detail Content -->
+        <div class="detail__content-wrap">
+          <div class="detail__body">
+
+            <!-- Name & Price -->
+            <div>
+              <div class="detail__header">
+                <h3 class="detail__name">Spongy donut with chips</h3>
+                <span class="detail__price">$1.50</span>
+              </div>
+              <div class="star-rating" style="margin-top: 6px">
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star">★</span>
+                <span class="star-rating__star star-rating__star--half">★</span>
+              </div>
+            </div>
+
+            <!-- Description -->
+            <p class="detail__description">
+              Indulge in the ultimate chocolate treat with our delectable chocolate donut with chips. Sink your teeth
+              into a soft and fluffy donut generously coated in rich, velvety chocolate.
+            </p>
+
+            <!-- Allergens -->
+            <div class="detail__allergens">
+              <div>
+                <span class="detail__allergens-label">Allergens: </span>
+                <span class="detail__allergens-value">Eggs, hazelnuts, milk, nuts.</span>
+              </div>
+              <div class="dietary-badges">
+                <div class="dietary-badge dietary-badge--active">
+                  <span class="dietary-badge__icon">🌿</span>
+                  <span>Vegetarian</span>
+                </div>
+                <div class="dietary-badge dietary-badge--inactive">
+                  <span class="dietary-badge__icon">🌱</span>
+                  <span>Vegan</span>
+                </div>
+                <div class="dietary-badge dietary-badge--inactive">
+                  <span class="dietary-badge__icon">🌾</span>
+                  <span>Gluten Free</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Savor Options -->
+            <div>
+              <h4 class="detail__options-title">Savor</h4>
+              <div class="savor-options">
+                <button class="savor-pill">Chocolate</button>
+                <button class="savor-pill">Cinnamon</button>
+                <button class="savor-pill">Strawberry</button>
+                <button class="savor-pill">Coconut</button>
+                <button class="savor-pill">Lemon</button>
+                <button class="savor-pill">Caramel</button>
+              </div>
+            </div>
+
+            <!-- Add Extras -->
+            <div>
+              <h4 class="detail__options-title">Add Extras</h4>
+              <div class="extras-list">
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Glaze</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Filled Centered</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Powder sugar</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Marshmallows</span>
+                </div>
+                <div class="extra-chip">
+                  <div class="extra-chip__checkbox">✓</div>
+                  <span class="extra-chip__label">Sprinkles</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Additional Note -->
+            <div>
+              <h4 class="detail__options-title">Anything else?</h4>
+              <div class="note-field">
+                <input class="note-field__input" type="text" placeholder="Introduce an additional note">
+                <label class="note-field__label">Anything else?</label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Add to Cart Bar -->
+          <div class="detail__cart-bar">
+            <button class="add-to-cart-btn" type="button">
+              <span>Add</span>
+              <div class="add-to-cart-btn__qty">
+                <button type="button">▲</button>
+                <span class="add-to-cart-btn__qty-value">1</span>
+                <button type="button">▼</button>
+              </div>
+              <span>to Cart</span>
+              <span class="add-to-cart-btn__icon">🛒</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="footer__brand">Tia's Healthy Bakes</div>
+    <p class="footer__text">© 2026 Tia's Healthy Bakes. All rights reserved.</p>
+  </footer>
+
+
+  <!-- ========================================
+       MOBILE BOTTOM TAB BAR
+       ======================================== -->
+  <nav class="tab-bar" aria-label="Mobile navigation">
+    <a href="#home" class="tab-bar__item tab-bar__item--active">
+      <span class="tab-bar__icon">🏠</span>
+    </a>
+    <a href="#products" class="tab-bar__item">
+      <span class="tab-bar__icon">🔍</span>
+      <span class="tab-bar__label">Search</span>
+    </a>
+    <a href="#" class="tab-bar__item">
+      <span class="tab-bar__icon">🛒</span>
+      <span class="tab-bar__label">Go to Cart</span>
+    </a>
+    <a href="#" class="tab-bar__item">
+      <span class="tab-bar__icon">👤</span>
+      <span class="tab-bar__label">Account</span>
+    </a>
+  </nav>
+
+
+</body>
+
+</html>
